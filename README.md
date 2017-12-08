@@ -1,11 +1,15 @@
 # CardGame
 A simple network card game based on the rules of Mau-Mau
 
+
 ## Installation
 ```
-git clone https://github.com/danielroth1/CardGame.git
-cd CardGame/src
-javac main/Main.java
+git clone https://github.com/danielroth1/CardGame.git && cd CardGame && mkdir build && javac src/main/Main.java -d build -sourcepath src/
+```
+
+## Execution
+```
+cd build
 java main.Main
 ```
 
