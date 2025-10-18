@@ -62,3 +62,19 @@ local.properties
 
 # End of https://www.gitignore.io/api/eclipse
 
+
+
+# Project build and distribution directories
+build/
+dist/
+
+# macOS Finder and metadata
+.DS_Store
+Icon\r
+._*
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+.Thumbs.db
+
