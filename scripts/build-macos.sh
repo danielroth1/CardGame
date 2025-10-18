@@ -156,7 +156,7 @@ fi
 
 # Also create a zip of the .app for distribution/backups
 if [[ -d "$APP_IMAGE_DIR" ]]; then
-  ZIP_NAME="${APP_NAME}.zip"
+  ZIP_NAME="${APP_NAME}.app.zip"
   ZIP_PATH="$DIST_DIR/$ZIP_NAME"
   echo "Creating zip of app at $ZIP_PATH..."
 
